@@ -1,0 +1,22 @@
+
+# Terraform working files (never publish these)
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+tfplan
+*.tfplan
+crash.log
+crash.*.log
+
+# Sensitive credentials and environment files
+.env
+.env.*
+*.pem
+*.key
+credentials
+
+# OS noise
+.DS_Store
